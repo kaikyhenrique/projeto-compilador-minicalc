@@ -1,41 +1,37 @@
-# Projeto de Compiladores – MiniCalc
+Kaiky Henrique Alves dos Reis
+RA: 12524116655
 
-Repositório do projeto desenvolvido para a disciplina de **Teoria da Computação e Compiladores** (4º semestre de Ciência da Computação).
+- Projeto de Compiladores – MiniCalc
 
-Este trabalho é composto por:
+Este repositório faz parte do trabalho da disciplina de Teoria da Computação e Compiladores.  
+Aqui eu desenvolvi um compilador simples chamado **MiniCalc**, criado especialmente para este projeto.
 
-- Estudo de caso de um compilador real (**GCC – GNU Compiler Collection**)
-- Projeto de arquitetura de um compilador acadêmico (**MiniCalc**)
-- Protótipo funcional de **analisador léxico e sintático**
-- Execução das expressões via interpretador (simulando geração/execução de código)
-- Relatório teórico separado em PDF/Word (entregue via AVA / Moodle / Canvas)
+A ideia foi mostrar, de forma prática, como funciona o processo básico de compilação, desde a leitura do código até a execução do resultado.
 
+- Objetivo do Projeto
 
-# Objetivo do Projeto
+O MiniCalc serve para demonstrar as etapas principais de um compilador:
 
-O objetivo é **colocar em prática os conceitos de compiladores**:
+- análise léxica (geração de tokens)
+- análise sintática (estrutura da expressão)
+- análise semântica simples
+- geração de um bytecode básico
+- execução das instruções por uma máquina virtual
 
-- Análise léxica (tokens)
-- Análise sintática (gramática / parser)
-- Construção de uma AST (árvore sintática abstrata)
-- Execução / interpretação baseada na AST (simulando geração de código)
-- Organização do projeto em repositório Git
-
-O compilador **MiniCalc** funciona sobre uma mini-linguagem matemática simples, usada como exemplo didático.
+A linguagem MiniCalc é pequena de propósito, justamente para facilitar a visualização de cada etapa.
 
 ---
 
-## 🧠 Linguagem MiniCalc
+- Sobre a Linguagem MiniCalc
 
-A linguagem **MiniCalc** suporta:
+A linguagem permite:
 
-- Números inteiros  
-- Operadores: `+`, `-`, `*`, `/`  
-- Parênteses `(` `)` para prioridade  
-- Comando `print` para exibir o resultado  
+- números inteiros  
+- operadores `+`, `-`, `*`, `/`  
+- parênteses  
+- o comando `print`  
 
-Exemplo de código em MiniCalc:
+Exemplo usado no trabalho:
 
 ```text
 print (3 + 5) * 2
-****
